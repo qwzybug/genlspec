@@ -6,6 +6,8 @@ body {
   background: #fafafa;
 }
 
+input { opacity: 0; }
+
 #head {
   text-align: left;
 }
@@ -83,7 +85,7 @@ ol#posts li {
   padding-bottom: 0.5em;
 }
 
-div.post, div#post, div#related {
+div.post, div#post, div#related, div#main {
   width: 830px;
   text-align: left;
   margin: auto;
