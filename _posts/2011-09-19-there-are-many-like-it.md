@@ -11,7 +11,7 @@ link_color: "#d44"
 visited_link_color: "#c77"
 ---
 
-I am Devin Chalmers. I've been working on the web since 2001, I studied math &amp; philosophy and Reed College, graduating in 2008; I've been working mostly in Cocoa ever since. I've managed to make a few pretty cool things, and I hope to write about them here. Every so often I have a thought that I feel bears writing down. Usually I'll put it in a letter to a pretty girl, but the other ones will go here.
+I am Devin Chalmers. I've been working on the web since 2001, I studied math &amp; philosophy at Reed College, graduating in 2008; I've been working mostly in Cocoa ever since. I've managed to make a few pretty cool things, and I hope to write about them here. Every so often I have a thought that I feel bears writing down. Usually I'll put it in a letter to a pretty girl, but the other ones will go here.
 
 You can see a smattering of projects at [doormouse.org](http://doormouse.org/).
 
