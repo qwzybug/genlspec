@@ -12,9 +12,14 @@ input { opacity: 0; }
   text-align: left;
 }
 
-#head, #foot {
+#head, #foot, #disqus_thread {
   margin: auto;
   width: 830px;
+}
+
+#disqus_thread {
+  text-align: left;
+  margin-top: 2em;
 }
 
 #foot {
