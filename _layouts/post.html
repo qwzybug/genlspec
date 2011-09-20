@@ -1,15 +1,49 @@
 ---
 layout: default
 ---
+
+<style type="text/css">
+body {
+	background: {{page.background}} !important;
+	color: {{page.body_color}} !important;
+}
+h1, #head a, #head a:visited, #head a:active, #byline {
+	color: {{page.faded_title_color}} !important;
+	font-style: normal !important;
+}
+h2 {
+	color: {{page.title_color}} !important;
+	font-style: normal !important;
+}
+#top, #bottom {
+	background: {{page.faded_background}} !important;
+}
+a {
+	color: {{page.link_color}} !important;
+}
+a:visited {
+	color: {{page.visited_link_color}} !important;
+}
+h3 {
+	font-style: italic;
+	color: {{page.body_color}};
+	font-size: 16pt;
+}
+</style>
+
 <div id="post">
+<h2>{{ page.title }}</h2>
+<h3>{{ page.blurb }}</h3>
 {{ content }}
 </div>
 
+{% if site.related_posts(limit:3).count > 0 %}
 <div id="related">
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ page.date | date_to_string }}</span> &raquo; <a href="{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
+{% endif %}

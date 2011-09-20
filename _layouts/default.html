@@ -1,64 +1,42 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!doctype html>
+<html>
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="Tom Preston-Werner" />
-   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />
-
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-
-   <!-- Typekit -->
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<title>{{ page.title }}</title>
+  <meta name="author" content="Devin Chalmers" />
+	<script type="text/javascript" src="http://use.typekit.com/srg7uaj.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]>
+	  <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+	<link rel="stylesheet" media="screen, projection" href="/css/screen.css" />
 </head>
-<body>
-
-<div class="site">
-  <div class="title">
-    <a href="/">Tom Preston-Werner</a>
-    <a class="extra" href="/">home</a>
-  </div>
-  
-  {{ content }}
-  
-  <div class="footer">
-    <div class="contact">
-      <p>
-        Tom Preston-Werner<br />
-        Cofounder of <a href="http://github.com/">GitHub</a><br />
-        tom@mojombo.com
-      </p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="http://github.com/mojombo/">github.com/mojombo</a><br />
-        <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
-        <a href="http://flickr.com/photos/mojombo/">flickr.com/photos/mojombo</a>
-      </p>
-    </div>
-    <div class="rss">
-      <a href="http://feeds.feedburner.com/tom-preston-werner">
-        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-      </a>
-    </div>
-  </div>
-</div>
-
-<a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-6016902-1");
-pageTracker._trackPageview();
-</script>
-
+<body class="">
+	<div id="top">
+		<div id="head">
+			<div class="span-13 tk-anivers">
+				<h1><a href="/">General Specificity</a></h1>
+			</div>
+			<ul id="nav" class="span-8 last">
+				<li class="span-8 last"><input type="text" placeholder="Search" /></li>
+				<li class="span-4"><a href="/about.html">About</a></li>
+				<li class="span-4 last"><a href="/atom.xml">Subscribe</a></li>
+				<li class="span-4"><a href="https://twitter.com/qwzybug">Twitter</a></li>
+				<li class="span-4 last"><a href="https://github.com/qwzybug">GitHub</a></li>
+			</ul>
+			<p class="span-21 clear" id="byline">In general, be specific: a blog about mostly code by Devin Chalmers, 2011 to present.
+				&nbsp;&mdash;</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="content">
+	  {{ content }}
+	</div>
+	<div id="bottom">
+		<div id="foot" class="clear quiet">
+			&copy; 2011 devin chalmers
+		</div>
+	</div>
 </body>
 </html>
