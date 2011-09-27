@@ -102,16 +102,11 @@ div.post, div#post, div#related, div#main {
   padding-top: 1em;
 }
 
-.post h2 {
+h2 {
   font-size: 2em;
-  line-height: 1.5em;
-  margin-bottom: 0;
-}
-
-#post h2 {
-  font-size: 2em;
-  line-height: 2em;
-  margin-bottom: 0;
+  line-height: 1em;
+  padding: 0.25em 0;
+  margin: 0;
 }
 
 .post_dateline {

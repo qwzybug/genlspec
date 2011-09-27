@@ -2,6 +2,9 @@
 layout: post
 title: There Are Many Like It...
 blurb: ...but this blog is mine.
+splash_background: "#f1f1f1"
+splash_color: "#555"
+splash_link_color: "#d44"
 background: "#f1f1f1"
 faded_background: "#dadada"
 title_color: "#777"
