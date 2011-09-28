@@ -18,16 +18,16 @@ visited_link_color: "#95a4c1"
 
 But Greg and I saw an out: [github](http://github.com/), a social network purpose-built around versioning and collaboration with stellar usability, and the iPad, the end-user right-brain machine to end them all. Even artists should be able to use git, we reasoned, if properly covered in a glossy coating of iOS! I set to code.
 
-This is the story of how that weekend hack became a summer-long ordeal, as we found ourselves caught constantly on the wrong corner of three-way fights&mdash;reviewers vs. appeals board, Apple vs. github&mdash;that Apple, eventually and inevitably, wins.
+This is the story of how that weekend hack became a summer-long ordeal, as we found ourselves caught constantly on the wrong corner of three-way fights&mdash;reviewers vs. appeals board, Apple vs. GitHub&mdash;that Apple, eventually and inevitably, wins.
 
 ### Those Halcyon Days
 
 [Drift](http://permanentmaintenance.com), based on an [early MacRuby hack of Greg's](http://github.com/atduskgreg/drift), was functional in a couple days of coding and won an honorable mention at iPadDevCamp 2010's hackathon. The featureset is pretty simple:
 
-- Edit text files and persist them as github gists (there is no "Save" button)
-- Search for other github users, browse their gists, and fork them to edit
+- Edit text files and persist them as GitHub Gists (there is no "Save" button)
+- Search for other GitHub users, browse their Gists, and fork them to edit
 - Share links to your documents on github.com
-- Use the app anonymously, if you like, or sign in to a github account to associate your documents with that account
+- Use the app anonymously, if you like, or sign in to a GitHub account to associate your documents with that account
 
 <p style="text-align: center"><a href="http://permanentmaintenance.com/"><img src="http://genlspec.s3.amazonaws.com/2011-09-24-drift/diagram-drift.png" alt="The Drift Editor" /></a></p>
 
@@ -37,7 +37,7 @@ We haven't explored the more interesting interfaces of distributed version contr
 
 > *11.13* Apps that link to external mechanisms for purchases or subscriptions to be used in the app, such as a "buy" button that goes to a web site to purchase a digital book, will be rejected.
 
-When cleaning up the app to submit, we took care to hew to Apple's guidelines on accounts and payment links: the app works without a login, and we (naively) only linked at first to the signup page for github's free accounts&mdash;none of the paid accounts give any gist-related benefits, and we considered them orthogonal to our app.
+When cleaning up the app to submit, we took care to hew to Apple's guidelines on accounts and payment links: the app works without a login, and we (naively) only linked at first to the signup page for GitHub's free accounts&mdash;none of the paid accounts give any Gist-related benefits, and we considered them orthogonal to our app.
 
 Unsurprisingly, the reviewers disagreed: we were swiftly rejected for violating rule 11.13, quoted above.
 
@@ -63,11 +63,11 @@ Through all this, the appeals board members appointed us seemed as mystified as 
 > Greg: that's ok  
 > Greg: "I don't see any problem with that at all"  
 
-Eventually it became clear that, from the reviewers' perspective, there was a problem with that, at all: it wasn't the (already redacted) signup links that we were being rejected for, but any github link. At all.
+Eventually it became clear that, from the reviewers' perspective, there was a problem with that, at all: it wasn't the (already redacted) signup links that we were being rejected for, but any GitHub link. At all.
 
 ### The First One's Free: Whose Users Are Youse? & There Ain't No Such Thing As A Free Account
 
-When operating inside github's system as we do, it is difficult for us not to appear to be constantly shilling for them: every external link we provide is never more than a few clicks away from giving github a couple bucks. In the world of user acquisition, any even tangential linkout to github's pages is tainted by association with their marketing department.
+When operating inside GitHub's system as we do, it is difficult for us not to appear to be constantly shilling for them: every external link we provide is never more than a few clicks away from giving GitHub a couple bucks. In the world of user acquisition, any even tangential linkout to GitHub's pages is tainted by association with their marketing department.
 
 Watch carefully:
 
@@ -77,15 +77,15 @@ It all makes perfect sense, if you think about it. D&mdash;, our estimable revie
 
 If, however, users come to the app from the App Store, they've never heard of MyWebBookSauceHubsterVille before: all they're interested in doing is making their iPad a little more useful. Then, Apple sees them as Apple customers, first and foremost, and Apple wants its cut of the action. You're standing on top of their stack, and that costs 30%.
 
-It's a perfectly bright line, and others in the business of acquiring eyeballs and big cash moneys (Amazon, Conde Nast, Netflix, even scrappy github) can surely see the logic in it. It's Apple's screen; we're all just icons on it.
+It's a perfectly bright line, and others in the business of acquiring eyeballs and big cash moneys (Amazon, Conde Nast, Netflix, even scrappy GitHub) can surely see the logic in it. It's Apple's screen; we're all just icons on it.
 
 But (as with so many other of the App Store rules&mdash;no "executable code"? Kurt Gödel called, and he wants to tell you a story...) it disproportionately fucks those of us on the periphery: the kind of people who are interested in mashing up APIs, building interfaces to your data no one's thought of; those of us who just want to sell you a slightly better widget for living online.
 
 ### Mashup Smashup & API Apps
 
-As a concrete example: one of the great App Store gold rushes was Twitter clients. What makes our undertaking, a gist client, different from theirs? Well, largely it's that github has a business model, while Twitter doesn't. Think of that: if Twitter charged a buck a month for their service, instead of aggregating your sentiments to sell to OmniCom and co. to turn into failed viral marketing campaigns, Loren Brichter might still be quietly churning out the most polished iPhone apps in the world; people might meet Craig Hockenberry and exclaim "oh, the Icon Factory! It's so cool to meet a graphic designer at WWDC."
+As a concrete example: one of the great App Store gold rushes was Twitter clients. What makes our undertaking, a Gist client, different from theirs? Well, largely it's that GitHub has a business model, while Twitter doesn't. Think of that: if Twitter charged a buck a month for their service, instead of aggregating your sentiments to sell to OmniCom and co. to turn into failed viral marketing campaigns, Loren Brichter might still be quietly churning out the most polished iPhone apps in the world; people might meet Craig Hockenberry and exclaim "oh, the Icon Factory! It's so cool to meet a graphic designer at WWDC."
 
-What about the high school kid hacking on a MacRuby iOS app to mash up your Hulu viewing history with your github commits, or seeing how photographing your food correlates with Facebook status updates involving the phrase "single again, sigh", or finding [just the right New York Times crossword to go along with your favorite Kindle vampire novel](http://rexwordpuzzle.blogspot.com/2010/10/1986-brad-davis-film-sun-10-31-10-jazz.html)? People often accuse Apple of "not getting the web"; to the extent that the web these days is about large data silos ceding some control over users' data through APIs, it is frustrating and a bit backwards for Apple to actively discourage developers that don't happen to own the whole user stack.
+What about the high school kid hacking on a MacRuby iOS app to mash up your Hulu viewing history with your GitHub commits, or seeing how photographing your food correlates with Facebook status updates involving the phrase "single again, sigh", or finding [just the right New York Times crossword to go along with your favorite Kindle vampire novel](http://rexwordpuzzle.blogspot.com/2010/10/1986-brad-davis-film-sun-10-31-10-jazz.html)? People often accuse Apple of "not getting the web"; to the extent that the web these days is about large data silos ceding some control over users' data through APIs, it is frustrating and a bit backwards for Apple to actively discourage developers that don't happen to own the whole user stack.
 
 Apple's position is understandable and defensible: they don't want their [magically reconfigurable glass machine from the far future](http://apple.com/ipad) coopted by grifters and charlatans into a monthly money suck for services of dubious value. 
 
