@@ -24,8 +24,8 @@ This is the story of how that weekend hack became a summer-long ordeal, as we fo
 
 [Drift](http://permanentmaintenance.com), based on an [early MacRuby hack of Greg's](http://github.com/atduskgreg/drift), was functional in a couple days of coding and won an honorable mention at iPadDevCamp 2010's hackathon. The featureset is pretty simple:
 
-- Edit text files and persist them as GitHub Gists (there is no "Save" button)
-- Search for other GitHub users, browse their Gists, and fork them to edit
+- Edit text files and persist them as GitHub gists (there is no "Save" button)
+- Search for other GitHub users, browse their gists, and fork them to edit
 - Share links to your documents on github.com
 - Use the app anonymously, if you like, or sign in to a GitHub account to associate your documents with that account
 
@@ -37,7 +37,7 @@ We haven't explored the more interesting interfaces of distributed version contr
 
 > *11.13* Apps that link to external mechanisms for purchases or subscriptions to be used in the app, such as a "buy" button that goes to a web site to purchase a digital book, will be rejected.
 
-When cleaning up the app to submit, we took care to hew to Apple's guidelines on accounts and payment links: the app works without a login, and we (naively) only linked at first to the signup page for GitHub's free accounts&mdash;none of the paid accounts give any Gist-related benefits, and we considered them orthogonal to our app.
+When cleaning up the app to submit, we took care to hew to Apple's guidelines on accounts and payment links: the app works without a login, and we (naively) only linked at first to the signup page for GitHub's free accounts&mdash;none of the paid accounts give any gist-related benefits, and we considered them orthogonal to our app.
 
 Unsurprisingly, the reviewers disagreed: we were swiftly rejected for violating rule 11.13, quoted above.
 
