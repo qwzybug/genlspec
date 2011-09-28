@@ -16,7 +16,7 @@ visited_link_color: "#95a4c1"
 
 "Artists should use git," Greg told me one day, and I didn't believe him at first. But it's true: the programmer classes have version control, permanent history, easy collaboration, and "The Cloud" while the more creative types are stuck with ~/Desktops full of "Site mockup-round 2 FINAL tuesdayrev.jamesversion #3 actuallyfinal.tweaks.psd" files. (Or Adobe Bridge. Haha.)
 
-But Greg and I saw an out: [github](http://github.com/), a social network purpose-built around versioning and collaboration with stellar usability, and the iPad, the end-user right-brain machine to end them all. Even artists should be able to use git, we reasoned, if properly covered in a glossy coating of iOS! I set to code.
+But Greg and I saw an out: [GitHub](http://github.com/), a social network purpose-built around versioning and collaboration with stellar usability, and the iPad, the end-user right-brain machine to end them all. Even artists should be able to use git, we reasoned, if properly covered in a glossy coating of iOS! I set to code.
 
 This is the story of how that weekend hack became a summer-long ordeal, as we found ourselves caught constantly on the wrong corner of three-way fights&mdash;reviewers vs. appeals board, Apple vs. GitHub&mdash;that Apple, eventually and inevitably, wins.
 
