@@ -1,7 +1,11 @@
 <!doctype html>
 <html>
 <head>
-	<title>{{ page.title }}</title>
+	<title>
+	  {% if page.blurb == nil %}General Specificity: {% endif %}
+	  {{ page.title }}
+	  {% if page.blurb %} – {{ page.blurb }}{% endif %}
+	</title>
   <meta name="author" content="Devin Chalmers" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<script type="text/javascript" src="http://use.typekit.com/srg7uaj.js"></script>

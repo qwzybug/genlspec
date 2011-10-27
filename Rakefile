@@ -25,7 +25,7 @@ task :deploy => :"deploy:dev"
 namespace :deploy do
   desc "Deploy to Dev"
   task :dev => :build do
-    rsync "dev.generalspecificity.com"
+    rsync "PREPRESS.generalspecificity.com"
   end
   
   desc "Deploy to Live"
