@@ -41,6 +41,10 @@ h1 {
   margin-bottom: 0;
   vertical-align: text-bottom;
 }
+h2 + h3 { margin-top: 0; }
+h3 {
+  margin-top:1em;
+}
 #head a, #head a:visited, #head a:active {
   color: #333 !important;
 }
